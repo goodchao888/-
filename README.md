@@ -20,5 +20,5 @@
 </a>
 
 <a href="https://www.unesco.org/zh" target="_blank">
-    <img src="https://www.unesco.org/sites/default/files/styles/logo/public/2021-04/UNESCO_Logo_Color_RGB.png" alt="UNESCO 标志" width="200">
+    <img src="https://www.unesco.org/sites/default/files/styles/logo/public/2021-04/UNESCO_Logo_Color_RGB.png" alt="UN 标志" width="200">
 </a>
