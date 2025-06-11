@@ -11,6 +11,6 @@
 
 <a href="https://www.google.com" target="_blank">   <img src="https://img.shields.io/badge/访问谷歌-立即搜索-blue?style=for-the-badge&logo=google" alt="访问谷歌"> </a>
 
-<a href="https://minepi.com">
-  <img src="https://img.shields.io/github/stars/your-username/minepi?style=social" alt="Star 数量">
+<a href="https://minepi.com" target="_blank">
+    <img src="https://img.shields.io/badge/minepi.com-%234CAF50?logo=minecraft&logoColor=white&style=for-the-badge" alt="Minecraft Pi 项目官网">
 </a>
