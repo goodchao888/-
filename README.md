@@ -18,3 +18,7 @@
 <a href="https://stellar.org" target="_blank">
     <img src="https://img.shields.io/badge/Stellar%20Network-%230E88EB?logo=stellar&logoColor=white&style=flat-square&labelColor=black" alt="Stellar区块链网络">
 </a>
+
+<a href="https://www.unesco.org/zh" target="_blank">
+    <img src="https://www.unesco.org/sites/default/files/styles/logo/public/2021-04/UNESCO_Logo_Color_RGB.png" alt="UNESCO 标志" width="200">
+</a>
