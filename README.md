@@ -1,1 +1,1 @@
-# -minepi.com
+# - https//:minepi.com
