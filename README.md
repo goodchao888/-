@@ -22,3 +22,8 @@
 <a href="https://www.unesco.org/zh" target="_blank">
     <img src="https://img.shields.io/badge/UNESCO%20中文官网-%230066CC?logo=education&logoColor=white&style=flat-square&labelColor=gray" alt="联合国教科文组织官方网站">
 </a>
+
+<a href="https://www.gov.cn" target="_blank">
+    <img src="https://www.gov.cn/favicon.ico" alt="中国政府网标识" width="32">
+    <span style="display:inline-block;margin-left:8px;vertical-align:middle">中国政府网</span>
+</a>
