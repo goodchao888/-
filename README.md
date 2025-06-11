@@ -1,4 +1,6 @@
-
+<a href="https://app.circleci.com" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/CircleCI%20App-%230062D3?logo=circleci&logoColor=white&style=flat-square&labelColor=gray" alt="CircleCI 应用平台">
+</a>
 
 <div align="center">
  <a href="https://www.google.com">
@@ -27,6 +29,3 @@
     <img src="https://img.shields.io/badge/中国政府网-%23CC0000?logo=home&logoColor=white&style=for-the-badge" alt="中华人民共和国中央人民政府官网">
 </a>
 
-<a href="https://app.circleci.com" target="_blank">
-    <img src="https://img.shields.io/badge/CircleCI-0070F3?logo=circleci&logoColor=white&style=for-the-badge" alt="CircleCI 持续集成平台">
-</a>
