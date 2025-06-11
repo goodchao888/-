@@ -20,5 +20,5 @@
 </a>
 
 <a href="https://www.unesco.org/zh" target="_blank">
-    <img src="https://www.unesco.org/sites/default/files/styles/logo/public/2021-04/UNESCO_Logo_Color_RGB.png" alt="UNESCO 标志" width="200">
+    <img src="https://img.shields.io/badge/UNESCO%20中文官网-%230066CC?logo=education&logoColor=white&style=flat-square&labelColor=gray" alt="联合国教科文组织官方网站">
 </a>
