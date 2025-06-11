@@ -1,16 +1,4 @@
-# # 谷歌访问链接示例项目
 
-这个项目演示了如何在 GitHub README 文件中添加各种样式的外部链接，特别是谷歌的访问链接。
-
-## 直接访问谷歌
-
-[点击这里访问谷歌搜索](https://www.google.com)
-
-## 带图标的谷歌链接
-
-[<img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google Logo" width="20"/> Google 首页](https://www.google.com)
-
-## 按钮样式的谷歌链接
 
 <a href="https://www.google.com" target="_blank">
   <img src="https://img.shields.io/badge/访问谷歌-立即搜索-blue?style=for-the-badge&logo=google" alt="访问谷歌">
