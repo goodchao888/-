@@ -14,3 +14,7 @@
 <a href="https://minepi.com" target="_blank">
     <img src="https://img.shields.io/badge/Pi Network-%234CAF50?logo=minecraft&logoColor=white&style=for-the-badge" alt="Minecraft Pi 项目官网">
 </a>
+
+<a href="https://stellar.org" target="_blank">
+    <img src="https://img.shields.io/badge/Stellar%20Network-%230E88EB?logo=stellar&logoColor=white&style=flat-square&labelColor=black" alt="Stellar区块链网络">
+</a>
