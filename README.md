@@ -24,6 +24,5 @@
 </a>
 
 <a href="https://www.gov.cn" target="_blank">
-    <img src="https://www.gov.cn/favicon.ico" alt="中国政府网标识" width="32">
-    <span style="display:inline-block;margin-left:8px;vertical-align:middle">中国政府网</span>
+    <img src="https://img.shields.io/badge/中国政府网-%23CC0000?logo=home&logoColor=white&style=for-the-badge" alt="中华人民共和国中央人民政府官网">
 </a>
