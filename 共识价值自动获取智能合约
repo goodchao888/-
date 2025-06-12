@@ -1,0 +1,137 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
+
+contract ConsensusPriceStabilizer {
+    // 合约管理员
+    address public owner;
+    
+    // 价格数据结构
+    struct DailyPrice {
+        uint256 consensusValue;
+        uint256 high;
+        uint256 low;
+        uint256 timestamp;
+        bool isSet;
+    }
+    
+    // Chainlink 价格预言机
+    AggregatorV3Interface internal priceFeed;
+    
+    // 每日价格记录 (日期戳 => 价格数据)
+    mapping(uint256 => DailyPrice) public dailyPrices;
+    
+    // 支持的交易所列表
+    address[] public exchanges;
+    
+    // 事件
+    event ConsensusValueUpdated(uint256 date, uint256 consensusValue, uint256 high, uint256 low);
+    event TradeExecuted(address indexed trader, uint256 amount, uint256 price, uint256 timestamp);
+    
+    // 仅管理员修饰器
+    modifier onlyOwner() {
+        require(msg.sender == owner, "Only owner can call this function");
+        _;
+    }
+    
+    constructor(address _priceFeedAddress) {
+        owner = msg.sender;
+        priceFeed = AggregatorV3Interface(_priceFeedAddress);
+    }
+    
+    // 添加受信任的交易所地址
+    function addExchange(address _exchange) external onlyOwner {
+        exchanges.push(_exchange);
+    }
+    
+    // 获取多个交易所的中间价（实际应用需连接预言机）
+    function getExchangePrices() public view returns (uint256[] memory) {
+        uint256[] memory prices = new uint256[](exchanges.length);
+        // 实际实现应从各交易所API获取实时数据
+        // 此处为简化示例
+        for (uint i = 0; i < exchanges.length; i++) {
+            prices[i] = uint256(getLatestPrice()); // 使用Chainlink作为示例
+        }
+        return prices;
+    }
+    
+    // 计算共识价值（加权平均）
+    function calculateConsensusValue() public view returns (uint256) {
+        uint256[] memory prices = getExchangePrices();
+        uint256 total = 0;
+        
+        for (uint i = 0; i < prices.length; i++) {
+            total += prices[i];
+        }
+        
+        return total / prices.length;
+    }
+    
+    // 获取最新价格（Chainlink 预言机）
+    function getLatestPrice() public view returns (int) {
+        (
+            , 
+            int price,
+            ,
+            ,
+            
+        ) = priceFeed.latestRoundData();
+        return price;
+    }
+    
+    // 更新每日共识价值（应每日定时调用）
+    function updateConsensusValue() external {
+        uint256 today = block.timestamp / 1 days;
+        
+        require(!dailyPrices[today].isSet, "Today's consensus already set");
+        
+        uint256 consensus = calculateConsensusValue();
+        
+        dailyPrices[today] = DailyPrice({
+            consensusValue: consensus,
+            high: consensus,
+            low: consensus,
+            timestamp: block.timestamp,
+            isSet: true
+        });
+        
+        emit ConsensusValueUpdated(today, consensus, consensus, consensus);
+    }
+    
+    // 执行交易（遵守价格限制）
+    function executeTrade(uint256 amount, uint256 price) external {
+        uint256 today = block.timestamp / 1 days;
+        DailyPrice storage todayPrice = dailyPrices[today];
+        
+        require(todayPrice.isSet, "Consensus value not set for today");
+        require(price >= todayPrice.low && price <= todayPrice.high, 
+                "Price exceeds daily limits");
+        
+        // 更新当日最高/最低价
+        if (price > todayPrice.high) {
+            todayPrice.high = price;
+        }
+        if (price < todayPrice.low) {
+            todayPrice.low = price;
+        }
+        
+        // 此处添加实际交易逻辑（例如代币转账）
+        // ...
+        
+        emit TradeExecuted(msg.sender, amount, price, block.timestamp);
+    }
+    
+    // 获取当日允许的价格范围
+    function getTodaysPriceRange() public view returns (uint256 low, uint256 high) {
+        uint256 today = block.timestamp / 1 days;
+        require(dailyPrices[today].isSet, "Consensus not set today");
+        return (dailyPrices[today].low, dailyPrices[today].high);
+    }
+    
+    // 获取历史共识价值
+    function getHistoricalConsensus(uint256 date) public view returns (uint256) {
+        require(dailyPrices[date].isSet, "Consensus not set for this date");
+        return dailyPrices[date].consensusValue;
+    }
+}
