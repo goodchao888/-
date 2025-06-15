@@ -71,3 +71,6 @@
   <!-- 网络连接图案（多组弧线交叉） -->
   <path fill="#fff" d="M15.5 13.5h-1.2c-.27-.37-.6-.7-1-1l.3-.2c.4-.3.7-.6.9-1h.1c.1-.3.1-.6.1-.9 0-.3-.1-.6-.2-.9h-.1c-.2-.4-.5-.7-.9-1l-.3-.2c.4-.3.7-.6 1-1h1.2c.1.3.2.6.2.9 0 .3-.1.6-.2.9h-.1c-.2.4-.5.7-.9 1l-.3.2c.1.1.2.3.3.4.3.3.5.7.6 1.1.1.3.1.6.1.9
 <img src="https://img.shields.io/badge/【左侧文字】-【右侧文字】-002D72?style=for-the-badge&logo=【图标代码】" alt="【替代文本】">
+<a href="https://www.swift.com/" target="_blank">
+  <img src="https://img.shields.io/badge/SWIFT-金融报文服务-002D72?style=for-the-badge&logo=swift" alt="SWIFT金融网络">
+</a>
