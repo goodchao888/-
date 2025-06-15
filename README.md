@@ -65,3 +65,8 @@
 </svg>
 <a href="https://www.swift.com/" target="_blank">
   <img src="https://img.shields.io/badge/SWIFT-全球金融报文服务-002D72?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEyIDBDNS4zNzMgMCAwIDUuMzczIDAgMTJzNS4zNzMgMTIgMTIgMTIgMTItNS4zNzMgMTItMTJTMTguNjI3IDAgMTIgMHptMCAyMmMtNS41MjIgMC0xMC00LjQ3OC0xMC0xMHM0LjQ3OC0xMCAxMC0xMCAxMCA0LjQ3OCAxMCAxMC00LjQ3OCAxMC0xMCAxMHptMy41LTguNWgtMS4yYy0uMjctLjM3LS42LS43LTEtMWwuMy0uMmMuNC0uMy43LS42LjktMWguMWMuMS0uMy4xLS42LjEtLjkgMC0uMy0uMS0uNi0uMi0uOWgtLjFjLS4yLS40LS41LS43LS45LTFsLS4zLS4yYy40LS4zLjctLjYgMS0xaDEuMmMuMS4zLjIuNi4yLjkgMCAuMy0uMS42LS4yLjloLS4xYy0uMi40LS41LjctLjkgMWwtLjMuMmMuMS4xLjIuMy4zLjQuMy4zLjUuNy42IDEuMS4xLjMuMS42LjEuOXptLTMuMi
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- 蓝色背景圆 -->
+  <path fill="#fff" d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 22c-5.522 0-10-4.478-10-10s4.478-10 10-10 10 4.478 10 10-4.478 10-10 10z"/>
+  <!-- 网络连接图案（多组弧线交叉） -->
+  <path fill="#fff" d="M15.5 13.5h-1.2c-.27-.37-.6-.7-1-1l.3-.2c.4-.3.7-.6.9-1h.1c.1-.3.1-.6.1-.9 0-.3-.1-.6-.2-.9h-.1c-.2-.4-.5-.7-.9-1l-.3-.2c.4-.3.7-.6 1-1h1.2c.1.3.2.6.2.9 0 .3-.1.6-.2.9h-.1c-.2.4-.5.7-.9 1l-.3.2c.1.1.2.3.3.4.3.3.5.7.6 1.1.1.3.1.6.1.9
