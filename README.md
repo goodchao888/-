@@ -48,3 +48,5 @@
 <a href="https://www.raspberrypi.com/" target="_blank">
   <img src="https://img.shields.io/badge/Raspberry_Pi-官网-C51A4A?style=for-the-badge&logo=raspberrypi&logoColor=white" alt="树莓派官网">
 </a>
+<a href="https://www.india.gov.in/" target="_blank">
+  <img src="https://img.shields.io/badge/India.gov.in-共和国门户-FF9933?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMCIge
