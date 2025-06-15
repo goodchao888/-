@@ -76,3 +76,9 @@
 </a>
 <a href="https://www.iso.org/standard/66693.html" target="_blank">
   <img src="https://img.shields.io/badge/ISO_27001-信息安全管理体系-CC292C?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEyIDBDNS40IDAgMCA1LjQgMCAxMnM1LjQgMTIgMTIgMTIgMTItNS40IDEyLTEyUzE4LjYgMCAxMiAwem0wIDIyYy01LjUgMC0xMC00LjUtMTAtMTBTNi41IDIgMTIgMnMxMCA0LjUgMTAgMTAtNC41IDEwLTEwIDEwek0xNiAx
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- 红色认证环 -->
+  <path fill="#fff" d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.6 0 12 0zm0 22c-5.5 0-10-4.5-10-10S6.5 2 12 2s10 4.5 10 10-4.5 10-10 10z"/>
+  <!-- 安全盾牌抽象图案 -->
+  <path fill="#fff" d="M16 14c0 .6-.4 1-1 1H9c-.6 0-1-.4-1-1V8a0 0 0 0 1 0h6c0 .6 0 1.4 0 2 0 .6 0 1.4 0 2zm-4-3c0 .6-.4 1-1 1h-1.2c-.3-.3-.6-.6-1-.9l.3-.2c.4-.3.7-.6.9-1H11c.1-.3.1-.6.1-.9 0-.3-.1-.6-.2-.9h-.1c-.2-.4-.5-.7-.9-1l-.3-.2c.4-.3.7-.6 1-1H12c.1.3.2.6.2.9 0 .3-.1.6-.2.9h-.1c-.2.4-.5.7-.9 1l-.3.2c.1.1.2.3.3.4.3.3.5.7.6 1.1.1.3.1.6.1.9z"/>
+</svg>
