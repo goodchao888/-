@@ -50,3 +50,6 @@
 </a>
 <a href="https://www.india.gov.in/" target="_blank">
   <img src="https://img.shields.io/badge/India.gov.in-共和国门户-FF9933?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMCIge
+<a href="https://www.india.gov.in/" target="_blank">
+  <img src="https://img.shields.io/badge/India.gov.in-印度政府门户-FF9933?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI0ZGOTkzMyIgZD0iTTAgMGgyNHY2SDB6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTAgNmgyaDR2NEgweiI+PHBhdGggZmlsbD0iIzA0NkEzOCIgZD0iTTAgMTBoMjR2NkgweiIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9IiMwMDgzQkYiLz48L3N2Zz4=" alt="印度政府官方网站">
+</a>
