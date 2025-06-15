@@ -27,3 +27,7 @@
 
 <a href="https://www.gov.cn" target="_blank">
     <img src="https://img.shields.io/badge/中国政府网-%23CC0000?logo=home&logoColor=white&style=for-the-badge" alt="中华人民共和国中央人民政府官网">
+
+<a href="https://icsid.worldbank.org" target="_blank">
+  <img src="https://img.shields.io/badge/ICSID-投资争端解决中心-007DBC?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDBDNS4zNzMgMCAwIDUuMzczIDAgMTJzNS4zNzMgMTIgMTIgMTIgMTItNS4zNzMgMTItMTJTMTguNjI3IDAgMTIgMHptMCAyMmMtNS41MjIgMC0xMC00LjQ3OC0xMC0xMHM0LjQ3OC0xMCAxMC0xMCAxMCA0LjQ3OCAxMCAxMC00LjQ3OCAxMC0xMCAxMHptLTUtMTBoMTB2Mkg3di0yeiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==" alt="世界银行投资争端解决中心">
+</a>
