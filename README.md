@@ -53,3 +53,13 @@
 <a href="https://www.india.gov.in/" target="_blank">
   <img src="https://img.shields.io/badge/India.gov.in-印度政府门户-FF9933?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI0ZGOTkzMyIgZD0iTTAgMGgyNHY2SDB6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTAgNmgyaDR2NEgweiI+PHBhdGggZmlsbD0iIzA0NkEzOCIgZD0iTTAgMTBoMjR2NkgweiIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9IiMwMDgzQkYiLz48L3N2Zz4=" alt="印度政府官方网站">
 </a>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- 橙色带 -->
+  <path fill="#FF9933" d="M0 0h24v6H0z"/>
+  <!-- 白色带（中心法轮位置）-->
+  <path fill="#FFFFFF" d="M0 6h2v4H0z"/>
+  <!-- 绿色带 -->
+  <path fill="#046A38" d="M0 10h24v6H0z"/>
+  <!-- 阿育王法轮 -->
+  <circle cx="12" cy="12" r="3" fill="#0083BF"/>
+</svg>
