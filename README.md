@@ -31,3 +31,12 @@
 <a href="https://icsid.worldbank.org" target="_blank">
   <img src="https://img.shields.io/badge/ICSID-投资争端解决中心-007DBC?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDBDNS4zNzMgMCAwIDUuMzczIDAgMTJzNS4zNzMgMTIgMTIgMTIgMTItNS4zNzMgMTItMTJTMTguNjI3IDAgMTIgMHptMCAyMmMtNS41MjIgMC0xMC00LjQ3OC0xMC0xMHM0LjQ3OC0xMCAxMC0xMCAxMCA0LjQ3OCAxMCAxMC00LjQ3OCAxMC0xMCAxMHptLTUtMTBoMTB2Mkg3di0yeiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==" alt="世界银行投资争端解决中心">
 </a>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- 绿色外环 -->
+  <path fill="#009739" d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 22c-5.522 0-10-4.478-10-10s4.478-10 10-10 10 4.478 10 10-4.478 10-10 10z"/>
+  <!-- 黄色中环 -->
+  <circle cx="12" cy="12" r="4" fill="#FFDF00"/>
+  <!-- 蓝色核心 -->
+  <path fill="#00267F" d="M12 8.33c1.102 0 2 .898 2 2s-.898 2-2 2-2 .898-2-2 .898-2 2-2z"/>
+</svg>
