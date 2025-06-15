@@ -43,3 +43,5 @@
 <a href="https://www.gov.br/pt-br" target="_blank">
   <img src="https://img.shields.io/badge/Gov.br-巴西政府官方网站-009739?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzAwOTczOSIgZD0iTTEyIDBDNS4zNzMgMCAwIDUuMzczIDAgMTJzNS4zNzMgMTIgMTIgMTIgMTItNS4zNzMgMTItMTJTMTguNjI3IDAgMTIgMHptMCAyMmMtNS41MjIgMC0xMC00LjQ3OC0xMC0xMHM0LjQ3OC0xMCAxMC0xMCAxMCA0LjQ3OCAxMCAxMC00LjQ3OCAxMC0xMCAxMHoiLz48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSI0IiBmaWxsPSIjRkZERjAwIi8+PHBhdGggZmlsbD0iIzAwMjY3RiIgZD0iTTEyIDguMzNjMS4xMDIgMCAyIC44OTggMiAycy0uODk4IDItMiAyLTIgLjg5OC0yLTJzLjg5OC0yIDItMnoiLz48L3N2Zz4=" alt="巴西政府官方网站">
 </a>
+<a href="https://www.raspberrypi.com/" target="_blank">
+  <img src="https://img.shields.io/badge/Raspberry_Pi-官网-C51A4A?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTIiIGZpbGw9IiNDNTFBNEEiLz48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTYgNmgxMnYySDZ
